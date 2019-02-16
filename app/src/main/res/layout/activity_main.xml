@@ -56,7 +56,6 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/telegram_button_bg"
-        android:drawableLeft="@drawable/telegram-app"
         android:text="Telegram login"
         android:textColor="@android:color/white"
         app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
