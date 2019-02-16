@@ -47,25 +47,16 @@ This app has awesome interface with video as background and play once app is ope
 
 
 <p align="center">
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_1.jpg" />
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_2.jpg" />
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_3.jpg" />
+	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Android-LogIn---with-video-as-background/blob/master/Images/1.jpg" />
+<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Android-LogIn---with-video-as-background/blob/master/Images/2.jpg" />
+<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Android-LogIn---with-video-as-background/blob/master/Images/3.jpg" />
 </p>
-
-
 
 <p align="center">
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_4.jpg" />
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_6.jpg" />
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_7.jpg" />
+	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Android-LogIn---with-video-as-background/blob/master/Images/4.jpg" />
+<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Android-LogIn---with-video-as-background/blob/master/Images/5.jpg" />
+<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Android-LogIn---with-video-as-background/blob/master/Images/6.jpg" />
 </p>
 
 
-
-<p align="center">
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_8.jpg" />
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_9.jpg" />
-	<img width="250px" height="350px" src="https://github.com/dostonhamrakulov/Rent-House-Adaptive-App/blob/master/images/images_10.jpg" />
-</p>
-
-### Enjoy :)
+### Enjoy in open source :)
