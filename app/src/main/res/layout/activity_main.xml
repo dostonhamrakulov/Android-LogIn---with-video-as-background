@@ -52,7 +52,7 @@
         tools:layout_editor_absoluteY="326dp" />
 
     <Button
-        android:id="@+id/wechatLoginButton"
+        android:id="@+id/telegramLoginButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/telegram_button_bg"
@@ -60,10 +60,11 @@
         android:textColor="@android:color/white"
         app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
         app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
-        app:layout_constraintTop_toTopOf="@+id/h_guideline1" />
+        app:layout_constraintTop_toTopOf="@+id/h_guideline1"
+        android:onClick="telegramView"/>
 
     <Button
-        android:id="@+id/fbLoginButton"
+        android:id="@+id/githubLoginButton"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
@@ -72,7 +73,8 @@
         android:textColor="@android:color/white"
         app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
         app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/wechatLoginButton" />
+        app:layout_constraintTop_toBottomOf="@+id/telegramLoginButton"
+        android:onClick="gitHub"/>
 
     <Button
         android:id="@+id/otherAccButton"
@@ -93,7 +95,7 @@
         android:layout_marginTop="8dp"
         app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
         app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
-        app:layout_constraintTop_toBottomOf="@+id/fbLoginButton"
+        app:layout_constraintTop_toBottomOf="@+id/githubLoginButton"
         app:srcCompat="@drawable/or" />
 
     <CheckBox
@@ -116,14 +118,15 @@
         app:layout_constraintTop_toBottomOf="@+id/otherAccButton" />
 
     <TextView
-        android:id="@+id/secTermTextView"
+        android:id="@+id/info"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="4dp"
         android:layout_marginLeft="4dp"
-        android:text="JOOX User Terms and Privacy Policy"
+        android:textAlignment="center"
+        android:text="Doston Hamrakulov - nidoston.com"
         android:textColor="#80ffffff"
-        android:textSize="10sp"
+        android:textSize="15sp"
         app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"
         app:layout_constraintLeft_toRightOf="@+id/v_guideline3"
         app:layout_constraintTop_toBottomOf="@+id/termCheckBox" />
