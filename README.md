@@ -6,17 +6,18 @@ This app has awesome interface with video as background and play once app is ope
 
 
 -> Create a video view and make sure it takes up the whole area. If you are using constraint layout, you need to set all the constraints of your video view to parent.
+
 -> Create a new directory called "raw" under your "res" directory
+
 -> Place your video file into the "raw" directory
+
 -> Play the video
 
+### in MainActivity.java
 ``` [code]
 // VideoView videoview = (VideoView) findViewById(R.id.videoview);
-
 // Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.test);
-
 // videoview.setVideoURI(uri);
-
 // videoview.start();
 ```
 
@@ -40,7 +41,7 @@ This app has awesome interface with video as background and play once app is ope
 
 ## Google Play Store
 
-<a href="https://play.google.com/store/apps/details?id=rtu.group.adaptive.renthouse">Rent House</a>
+<a href="https://play.google.com/store/apps/details?id=com.idoston.set_video_as_background">LogIn app with video as background</a>
 
 
 ### Screens:
