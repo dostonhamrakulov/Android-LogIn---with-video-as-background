@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <VideoView
+        android:id="@+id/bgVideoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.15104167"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.8567708"
+        tools:layout_editor_absoluteX="329dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/v_guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="567dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.30729166"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/h_guideline1"
+        android:layout_width="384dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.5749559"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <Button
+        android:id="@+id/wechatLoginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/wechat_button_bg"
+        android:drawableLeft="@drawable/wechat_icon"
+        android:text="wechat login"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toTopOf="@+id/h_guideline1" />
+
+    <Button
+        android:id="@+id/fbLoginButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/fb_button_bg"
+        android:drawableLeft="@drawable/fb_logo"
+        android:text="Facebook Login"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/wechatLoginButton" />
+
+    <Button
+        android:id="@+id/otherAccButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/other_acc_button_bg"
+        android:text="Other Accounts"
+        android:textColor="@android:color/white"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/orImageView" />
+
+    <ImageView
+        android:id="@+id/orImageView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline1"
+        app:layout_constraintRight_toLeftOf="@+id/v_guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/fbLoginButton"
+        app:srcCompat="@drawable/or" />
+
+    <CheckBox
+        android:id="@+id/termCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:buttonTint="#80ffffff"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/otherAccButton" />
+
+    <TextView
+        android:id="@+id/firstTermTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="13dp"
+        android:text="I agree to the Terms of Service."
+        android:textColor="#80ffffff"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toRightOf="@+id/termCheckBox"
+        app:layout_constraintTop_toBottomOf="@+id/otherAccButton" />
+
+    <TextView
+        android:id="@+id/secTermTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:text="JOOX User Terms and Privacy Policy"
+        android:textColor="#80ffffff"
+        android:textSize="10sp"
+        app:layout_constraintLeft_toLeftOf="@+id/v_guideline3"
+        app:layout_constraintLeft_toRightOf="@+id/v_guideline3"
+        app:layout_constraintTop_toBottomOf="@+id/termCheckBox" />
+
+</android.support.constraint.ConstraintLayout>
