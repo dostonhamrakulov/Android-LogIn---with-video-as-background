@@ -5,15 +5,23 @@
 This app has awesome interface with video as background and play once app is open, the video plays automatically and User interface is really nice. The source code is available and the purpose of the development is to show the possibility of functionalities.
 
 
--> Create a video view and make sure it takes up the whole area. If you are using constraint layout, you need to set all the constraints of your video view to parent.
 
--> Create a new directory called "raw" under your "res" directory
+### Steps to do:
+``` [code]
+// 1. Create a video view and make sure it takes up the whole area. If you are using constraint layout, you need to set all the constraints of your video view to parent.
+// 2. Create a new directory called "raw" under your "res" directory
+// 3. Place your video file into the "raw" directory
+// 4. Play the video
+```
+-> 
 
--> Place your video file into the "raw" directory
+-> 
 
--> Play the video
+-> 
 
-### in MainActivity.java
+-> 
+
+### in MainActivity.java :
 ``` [code]
 // VideoView videoview = (VideoView) findViewById(R.id.videoview);
 // Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.test);
