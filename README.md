@@ -1,6 +1,6 @@
 # Doston Hamrakulov
 
-## LogIn with video as background
+## LogIn with a video as background
 ### Application domain  
 This app has awesome interface with video as background and play once app is open, the video plays automatically and User interface is really nice. The source code is available and the purpose of the development is to show the possibility of functionalities.
 
@@ -12,16 +12,11 @@ This app has awesome interface with video as background and play once app is ope
 // 2. Create a new directory called "raw" under your "res" directory
 // 3. Place your video file into the "raw" directory
 // 4. Play the video
-```
--> 
-
--> 
-
--> 
-
--> 
+``` 
 
 ### in MainActivity.java :
+You just need to integrate playing video functionality to reach a video as background:
+
 ``` [code]
 // VideoView videoview = (VideoView) findViewById(R.id.videoview);
 // Uri uri = Uri.parse("android.resource://"+getPackageName()+"/"+R.raw.test);
@@ -44,7 +39,7 @@ This app has awesome interface with video as background and play once app is ope
 **Doston Hamrakulov**
 >*Computer Systems, Riga Technical University, Riga, Latvia*
 
->*Web Engineering, Chemnitz University of Technology, Germany
+>*Web Engineering, Chemnitz University of Technology, Germany*
 
 
 ## Google Play Store
